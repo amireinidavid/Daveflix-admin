@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Axios = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://daveflix-admin-nn1d.vercel.app/api",
 });
 
 export default Axios;
