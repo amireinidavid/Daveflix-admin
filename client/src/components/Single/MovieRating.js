@@ -140,7 +140,7 @@ function MovieRating({ movie }) {
               movie?.reviews?.map((review) => (
                 <div
                   key={review?._id}
-                  className="md;grid flex flex-colw-full grid-cols-12 gap-6 bg-dry p-4 border border-gray-800 rounded-lg"
+                  className="md:grid flex flex-col w-full grid-cols-12 gap-6 bg-dry p-4 border border-gray-800 rounded-lg"
                 >
                   <div className="col-span-2 bg-main hidden md:block">
                     <img
@@ -150,7 +150,7 @@ function MovieRating({ movie }) {
                           : "/assets/logo.jpeg"
                       }
                       alt={review?.userName}
-                      className="w-32 h-24 rounded-lg object-cover"
+                      className="w-full h-24 rounded-lg object-cover"
                     />
                   </div>
                   <div className="col-span-7 flex flex-col gap-2">
